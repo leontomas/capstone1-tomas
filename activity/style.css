@@ -1,28 +1,37 @@
 body {
 	background-color: linen;
-	font-family: 'Rubik', sans-serif;
-	/*font-family: 'Roboto Mono', monospace;*/
+	
 	/*#f7f7f7*/
-
 }
-/*font-family: 'Roboto Condensed', sans-serif;*/
-/*font-family: 'Rubik', sans-serif;*/
-h1, h3, h4 {
-  /*font-family: 'Playfair Display', serif;*/
-  font-family: 'Rubik', sans-serif;
+p {
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	/*font-family: 'Rubik', sans-serif;*/
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  /*font-family: 'Rubik', sans-serif;*/
   color: maroon;
 }
-/*h3 h4 {
-	font-family: 'Oswald', sans-serif;
-	font-family: 'Rubik', sans-serif;
-}*/
+h2, h3 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h4 {
+	/*font-family: 'Roboto Mono', monospace;*/
+	font-family: 'Roboto Condensed', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+	/*font-family: 'Rubik', sans-serif;*/
+}
 
 ul{
 	list-style-type: none;
 }
 
 ul#horizontal-list {
-	min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
 	}
@@ -40,6 +49,14 @@ ul#horizontal-list li {
     border-radius: 50%;
     background-color:#828E8c;
     /*box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;*/
+}
+
+#logopic {
+	width: 80px;
+}
+
+#socialicon {
+	width: 50px;
 }
 
 #aboutmeArticle, #projects, #tools {
