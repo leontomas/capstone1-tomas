@@ -21,6 +21,16 @@ ul{
 	list-style-type: none;
 }
 
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+
+ul#horizontal-list li {
+	display: inline;
+}
+
 #profilepic {
     margin: 0 auto;
     width: 35vh;
@@ -53,11 +63,3 @@ ul{
     text-transform: uppercase;
 }
 
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
