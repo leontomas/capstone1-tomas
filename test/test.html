@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+    <style>
+    header {
+    position: fixed;
+    top: 0px;
+    left: 28px;
+    right: 28px;
+    z-index: 11;
+    height: 55px;
+    }
+    html, body, div, span, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    * {
+    text-rendering: optimizeLegibility;
+    }
+    header {
+    display: block;
+    unicode-bidi: isolate;
+    }
+    body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    body {
+    line-height: 1;
+    }
+    style attribute {
+    --viewport-height: 895px;
+    }
+    html {
+    line-height: 1.1;
+    font-size: 16px;
+    color: #f5eee6;
+    font-family: "Tusker Grotesk", sans-serif;
+    }
+    ::selection {
+    background: #f4f4f4;
+    color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <header id="header" class="fixed--bg" role="banner">
+        <div class="wrap-header--padding-sm"><nav class="main-navigation">
+            <div class="title"><a href="/">
+                <span class="h6">Leonardo Tomas Jr.</span></a> 
+                <span class="h6">Full-Stack Web Developer, DevOps Engineer</span>
+            </div>
+            <div id="main-menu" aria-expanded="false" role="navigation">
+                <ul>
+                    <li class="h6"><a href="#cases">works</a></li>
+                    <li class="h6"><a href="#intro">about</a></li>
+                    <li class="h6"><a href="#footer">contact</a></li>
+                </ul>
+            </div>
+            <progress max="100" value="0"></progress></nav>
+            <div class="scroller"></div>
+        </div>
+    </header>
+</body>
+</html>
