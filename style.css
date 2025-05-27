@@ -1,6 +1,5 @@
 body {
-	background-color: linen;
-	
+	background-color: RGB(205, 180, 150);
 	/*#f7f7f7*/
 }
 p {
@@ -9,8 +8,6 @@ p {
 	/*font-family: 'Roboto Condensed', sans-serif;*/
 	/*font-family: 'Rubik', sans-serif;*/
 }
-
-
 h1 {
   font-family: 'Playfair Display', serif;
   /*font-family: 'Rubik', sans-serif;*/
@@ -19,27 +16,22 @@ h1 {
 h2, h3 {
 	font-family: 'Roboto Mono', monospace;
 }
-
 h4 {
 	/*font-family: 'Roboto Mono', monospace;*/
 	font-family: 'Roboto Condensed', sans-serif;
 	/*font-family: 'Oswald', sans-serif;*/
 	/*font-family: 'Rubik', sans-serif;*/
 }
-
 ul{
 	list-style-type: none;
 }
-
 ul#horizontal-list {
 	list-style: none;
 	padding-top: 20px;
 	}
-
 ul#horizontal-list li {
 	display: inline;
 }
-
 #profilepic {
     margin: 0 auto;
     width: 35vh;
@@ -50,15 +42,12 @@ ul#horizontal-list li {
     background-color:#828E8c;
     /*box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;*/
 }
-
 #logopic {
 	width: 80px;
 }
-
 #socialicon {
 	width: 50px;
 }
-
 #aboutmeArticle, #projects, #tools {
 	background-color: white;
     border-radius: 50px;
@@ -67,7 +56,6 @@ ul#horizontal-list li {
     box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
     /*0 25px 24px 32px #C5D0C1;*/
 }
-
 #contactButton {
     background-color: #ff7171;
     border: 2px solid #ff7171;
@@ -79,4 +67,3 @@ ul#horizontal-list li {
     color: white;
     text-transform: uppercase;
 }
-
